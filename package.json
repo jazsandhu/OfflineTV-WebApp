@@ -1,0 +1,11 @@
+{
+  "name": "offlinetv",
+  "version": "1.0.0",
+  "description": "Offline TV Sample Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jasdeep Sandhu",
+  "license": "ISC"
+}
