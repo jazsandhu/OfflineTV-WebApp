@@ -1,5 +1,10 @@
+/*  BODY  */
 body {
-    background-color: blue;
+    background-color: rgba(80, 164, 177, 0.61);
+}
+
+body nav {
+    text-align: center;
 }
 
 /*  HEADER  */
@@ -7,9 +12,33 @@ header {
     background-color: rgb(31, 27, 27);
 }
 
-header nav {
-    background-color: rgb(155, 155, 155);
-    border: 1px solid black;
+header div {
+    padding-top: 12px;
 }
+
+header ul {
+    text-align: center;
+}
+
+header ul li a:visited, a:active, a:link {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+header ul li a:hover {
+    background-color: rgb(26, 25, 25);
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*  .  */

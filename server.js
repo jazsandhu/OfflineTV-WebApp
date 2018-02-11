@@ -4,6 +4,10 @@ const app = express();
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const path = require("path");
+const twitch_api = require("./twitch_api.js");
+
+// allow use of local files
+app.use(express.static('public'));
 
 // server must liten on port
 let HTTP_PORT = process.env.PORT || 8080; 
