@@ -3,9 +3,9 @@
     const app = express();
     const exphbs = require('express-handlebars');
     const bodyParser = require('body-parser');
-    const path = require("path");
-    const data_service = require("./data_service.js");
-    const twitch_api = require("./twitch_api.js");
+    const path = require('path');
+    const data_service = require('./data_service.js');
+    const twitch_api = require('./twitch_api.js');
 //
 
 // allow use of local files
