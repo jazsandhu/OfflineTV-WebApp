@@ -70,6 +70,16 @@ div.YT {
     height: 800px;
 }
 
+footer div.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(112, 255, 248);
+}
+
 /*  MEMBERS PAGE  */
 img.profilePicture {
     border-radius: 100px;
