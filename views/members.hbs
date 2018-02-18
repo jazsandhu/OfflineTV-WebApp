@@ -1,23 +1,22 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h2 style="text-align: center; text-decoration: underline;">The OfflineTV Crew</h2>
+        <p style="font-size:3em;text-align:center;text-decoration:underline;">The OfflineTV Crew</h2>
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         {{#each data}}
-            <div style="padding-bottom:4em;" class="col-md-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div style="float: left">
                     <table width="100%">
-                        <tr height="40%">
-                            <td rowspan="2" width="30%" >
-                                <img class="profilePicture" style="border-radius:100%;" width="100%" height="auto" src="{{profilePicture}}" alt="Frame" />
+                        <tr class="lul">
+                            <td rowspan="2" width="40%" >
+                                <img class="profilePicture" style="border-radius:100%;" width="100%" src="{{profilePicture}}" alt="Frame" />
                             </td>
-                            <td colspan="9">
-                                <h2 style="color:rgb(73, 73, 73);">&nbsp;{{memberName}}</h3><hr style="margin-bottom:0;padding-bottom:0;">
+                            <td colspan="9" class="lul">
+                                <p style="font-size:200%;color:rgb(73, 73, 73);">&nbsp;{{memberName}}</p><hr style="margin:0;padding-bottom:0;padding-top:0;">
                             </td>
                         </tr>
-                        <tr height="60%" >
+                        <tr class="lul" height="70%">
                             <td width="10%"> 
                                 <div class="SocialMediaLinks"><a href="{{twitchUrl}}"><img width="100%" src="https://i.imgur.com/NXom2um.png" alt="TwitchTV" /></a></div>
                             </td>
@@ -38,9 +37,20 @@
                                 <div class="SocialMediaLinks"><a href="{{facebookUrl}}"><img width="100%" src="https://i.imgur.com/ZvtUG96.png" alt="Facebook" /></a></div>
                             </td>
                         </tr>
+                        <tr class="lul" height="5em">
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                            <td class="lul"></td>
+                        </tr>
                     </table>
                 </div>
             </div>
         {{/each}}
-    </div>
 </div>
