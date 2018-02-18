@@ -1,84 +1,124 @@
-/*  BODY  */
-body {
+/*  LAYOUT PAGE  */
+    /* General */
+        body {
+            padding-top: 0em;
+            margin: 0em;
+        }
+
+        hr.majorHr {
+            border-top: 1px solid white;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav.login {
+            height: 1em;
+            background-color: rgb(6, 153, 146);
+        }
+
+        .zeroPadding {
+            padding: 0;
+        }
+
+        /* Header */
+            header {
+                background: linear-gradient(rgb(64, 173, 168), rgb(84, 202, 196));
+                padding-top: 1em;
+            }
+
+            /* Website Navgation */     
+                .websitemenu {
+                    text-align: center;
+                    padding: 0.8em;
+                    color: white;
+                }   
+
+                hr.top {
+                    padding-bottom: 0;
+                    margin-bottom: 0.9em;
+                }   
+
+                hr.bottom {
+                    padding-top: 0;
+                    margin-top: 0.8em;
+                }   
+
+                .websitemenu a:visited {
+                    text-decoration: none;
+                    color: white;
+                    padding: 1em;
+                }
+
+                .websitemenu a:active {
+                    text-decoration: none;
+                    color: white;
+                    padding: 1em;
+                }
+
+                .websitemenu a:link {
+                    text-decoration: none;
+                    color: white;
+                    padding: 1em;
+                }
+                
+                .websitemenu a:hover {
+                    background-color: rgb(26, 25, 25);
+                    text-decoration: none;
+                    color: white;
+                }
+
+            .headermsg {
+                text-align: center; 
+                background-color: rgb(0, 255, 234);
+                padding: 0.2em;
+            }
+
+            table img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .SocialMediaLinks td {
+                border-radius: 100em;
+            }
+
+            .SocialMediaLinks img {
+                border-radius: 100em;
+                border: 2px white solid;
+                margin-left: 0;
+            }
+            
+            .SocialMediaLinks img:hover {
+                border-radius: 100em;
+                opacity: 0.6;
+            }
+
+/* Body */
+.BodyColor {
     background: linear-gradient(rgb(112, 255, 248), rgb(240, 158, 213));
+    padding-bottom: 3em;
 }
 
-body nav {
-    text-align: center;
-}
-
-/*  HEADER  */
-header {
-    background: linear-gradient(rgb(64, 173, 168), rgb(84, 202, 196));
-}
-
-header div {
-    padding-top: 12px;
-}
-
-header ul {
-    text-align: center;
-}
-
-header ul li a:visited, a:active, a:link {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
-
-header ul li a:hover {
-    background-color: rgb(26, 25, 25);
-    text-decoration: none;
-    color: white;
-}
-
-header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header img.socialsites {
-    border: 2px white solid;
-    border-radius: 100%;
-}
-
-header img.socialsites:hover {
-    opacity: 0.6;
-}
-
-/*  HOME PAGE  */
-div.section-1, .section-2{
-    padding: 50px;
-}
-
-div.T {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 100px;
-}
-
-div.RP {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 800px;
-}
-
-div.YT {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 800px;
-}
-
-footer div.footer {
+/* Footer */
+footer {
     padding: 10px;
     text-align: center;
     background-color: rgb(112, 255, 248);
     border-top: 1px solid white;
 }
 
-/*  MEMBERS PAGE  */
-img.profilePicture {
-    border-radius: 100px;
-    float: left;
+/* HOME PAGE */
+.topPadding {
+    padding-top: 3em;
 }
+
+.grayBorder {
+    border: 1px gray solid;
+}
+
+.heightfivehundo {
+    height: 40em;
+}
+
+/* MEMBERS PAGE */
