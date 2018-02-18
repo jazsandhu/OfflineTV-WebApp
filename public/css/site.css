@@ -11,6 +11,10 @@
             margin: 0;
         }
 
+        .textpadding {
+            padding: 1em;
+        }
+
         nav.login {
             height: 1em;
             background-color: rgb(6, 153, 146);
