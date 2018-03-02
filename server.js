@@ -53,10 +53,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
     app.get("/members", (req, res) => {
         data_service.getAllMembers()
         .then((data) => {
-            res.render("members", { data: data, title: "Members"});
+            res.render("members", { data: data });
         })
         .catch((reason) => {
-            res.render("members", { data: {}, title: "Members"});
+            res.render("members", { data: {} });
         });
     });
     // unidentified route
