@@ -58,6 +58,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
             res.render("members", { data: {} });
         });
     });
+    // store
+    app.get("/store", (req, res) => {
+        res.render("store");
+    });
     // unidentified route
     app.use((req, res) => {
         res.status(404).send("Page Not Found!");

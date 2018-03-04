@@ -1,0 +1,51 @@
+<br>
+<div class="row">
+    {{#each data}}
+        <div class="col-sm-6 col-md-6 col-lg-6 red">
+            <div style="float:left">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4 col-lg-4 red">
+                                    <img class="profilePicture" style="border-radius:100%;" width="100%" src="{{profilePicture}}" alt="profilePicture" />
+                                </div>
+                                <div class="col-sm-8 col-md-8 col-lg-8 red">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-12 red" >
+                                            <p style="font-size:200%;color:rgb(153, 153, 153);">&nbsp;{{memberName}}</p><hr style="margin:0;padding:0;border-top:1px solid white;">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-12 red">
+                                            <div class="row">
+                                                <nav>
+                                                        <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" target="_blank" href="{{twitchUrl}}">
+                                                            <img width="60" height="60" src="https://i.imgur.com/NXom2um.png" alt="TwitchTV" />
+                                                        </a>
+                                                        <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" target="_blank" href="{{youtubeUrl}}">
+                                                            <img width="60" height="60" src="https://i.imgur.com/Ri73JhH.png" alt="Youtube" />
+                                                        </a>
+                                                        <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" target="_blank" href="{{instagramUrl}}">
+                                                            <img width="60" height="60" src="https://i.imgur.com/9PHyms0.png" alt="Instagram" />
+                                                        </a>
+                                                        <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" target="_blank" href="{{twitterUrl}}">
+                                                            <img width="60" height="60" src="https://i.imgur.com/Amwt37w.png" alt="Twitter" />
+                                                        </a>
+                                                        <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" target="_blank" href="{{facebookUrl}}">
+                                                            <img width="60" height="60" src="https://i.imgur.com/ZvtUG96.png" alt="Facebook" />
+                                                        </a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>    
+        </div>
+    {{/each}}
+</div>
+<br>
