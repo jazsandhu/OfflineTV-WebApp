@@ -49,10 +49,6 @@ header {
     color: rgb(220, 220, 220);
 }
 
-.gray {
-    border:1px solid gray;
-}
-
 .red {
     border:1px solid red;
 }
