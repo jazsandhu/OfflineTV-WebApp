@@ -1,85 +1,17 @@
-/*  BODY  */
-body {
-    background: linear-gradient(rgb(112, 255, 248), rgb(240, 158, 213));
+header, nav, div, .container, .row, hr{
+    padding: 0;
+    margin: 0;
 }
 
-body nav {
-    text-align: center;
-}
-
-/*  HEADER  */
-.header {
-    background: linear-gradient(rgb(64, 173, 168), rgb(84, 202, 196));
+.container{
     width: 100%;
 }
 
-.header div {
-    padding-top: 12px;
+hr {
+    border-top: 1px solid black;
 }
 
-.header ul {
-    text-align: center;
-}
-
-.header ul li a:visited, a:active, a:link {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
-
-.header ul li a:hover {
-    background-color: rgb(26, 25, 25);
-    text-decoration: none;
-    color: white;
-}
-
-.header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header img.socialsites {
-    border: 2px white solid;
+.SocialMediaLinks img:hover {
     border-radius: 100%;
-}
-
-.header img.socialsites:hover {
-    opacity: 0.6;
-}
-
-/*  HOME PAGE  */
-div.section-1, .section-2{
-    padding: 50px;
-}
-
-div.T {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 100px;
-}
-
-div.RP {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 800px;
-}
-
-div.YT {
-    padding: 20px;
-    border: 2px solid gray;
-    height: 800px;
-}
-
-footer div.footer {
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(112, 255, 248);
-    border-top: 1px solid white;
-}
-
-/*  MEMBERS PAGE  */
-img.profilePicture {
-    border-radius: 100px;
-    float: left;
+    opacity: 0.8;
 }

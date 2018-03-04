@@ -1,13 +1,27 @@
 <div class="row topPadding">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 grayBorder textpadding">
-        <div class="col-md-2 col-lg-2">
-            <p onload="liveStatus()"></p>
-            <script>
-                function liveStatus() {
-                    send("CALLED");
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        loaded <br>
+        <script type="text/javascript">
+            document.write("HELLOOOOO");
+            $.ajax({
+                url: "https://api.twitch.tv/kraken/streams/tyler1",
+                dataType: 'json',
+                headers: {
+                    'Client-ID': 'lr7nd0sd36qcdfwr3j3shsbck47s79'
                 }
-            </script>
-        </div>
+                success: function(channel) {
+                    if (channel["stream"] == null)
+                    {
+                        document.write("LIVE: " + channel);
+                    } else {
+                        document.write("NOT LIVE");
+                    }
+                }
+            });
+        </script>
+            <div class="col-md-2 col-lg-2">
+            </div>
     </div>
 </div>
 <div class="row">
