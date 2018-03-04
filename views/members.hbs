@@ -1,40 +1,55 @@
-<div class="row topPadding">
+<br>
+<div class="row">
     {{#each data}}
         <div class="col-sm-6 col-md-6 col-lg-6">
-            <div style="float: left">
-                <table width="100%">
-                    <tr class="lul">
-                        <td rowspan="2" width="40%" >
-                            <img class="profilePicture" style="border-radius:100%;" width="100%" src="{{profilePicture}}" alt="Frame" />
-                        </td>
-                        <td colspan="9" class="lul">
-                            <p style="font-size:200%;color:rgb(73, 73, 73);">&nbsp;{{memberName}}</p><hr style="margin:0;padding-bottom:0;padding-top:0;">
-                        </td>
-                    </tr>
-                    <tr class="lul" height="70%">
-                        <td width="10%"> 
-                            <div class="SocialMediaLinks"><a href="{{twitchUrl}}"><img width="100%" src="https://i.imgur.com/NXom2um.png" alt="TwitchTV" /></a></div>
-                        </td>
-                        <td></td>
-                        <td width="10%">
-                            <div class="SocialMediaLinks"><a href="{{youtubeUrl}}"><img width="100%" src="https://i.imgur.com/Ri73JhH.png" alt="Youtube" /></a></div>
-                        </td> 
-                        <td></td>
-                        <td width="10%">
-                            <div class="SocialMediaLinks"><a href="{{instagramUrl}}"><img width="100%" src="https://i.imgur.com/9PHyms0.png" alt="Instagram" /></a></div>
-                        </td>
-                        <td></td>
-                        <td width="10%">
-                            <div class="SocialMediaLinks"><a href="{{twitterUrl}}"><img width="100%" src="https://i.imgur.com/Amwt37w.png" alt="Twitter" /></a></div>
-                        </td>
-                        <td></td>
-                        <td width="10%">
-                            <div class="SocialMediaLinks"><a href="{{facebookUrl}}"><img width="100%" src="https://i.imgur.com/ZvtUG96.png" alt="Facebook" /></a></div>
-                        </td>
-                    </tr>
-                    <tr class="lul" height="5em"></tr>
-                </table>
-            </div>
+                        <div class="row gray" style="padding:5px;margin:1px;">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img class="profilePicture" style="border-radius:100%;" width="100%" src="{{profilePicture}}" alt="profilePicture" />
+                            </div>
+                            <div class="col-sm-8 col-md-8 col-lg-8 align-self-center">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12" style="padding-left:0;padding-right:0;" >
+                                        <p style="font-size:2vw;color:rgb(153, 153, 153);margin-bottom:0;">&nbsp;{{memberName}}</p><hr style="margin-top:0;padding-top:0;border-top:1px solid white;">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <div class="row">
+                                            <table width="100%">
+                                                <tr>
+                                                    <td width="20%"> 
+                                                        <a class="SocialMediaLinks" href="{{twitchUrl}}">
+                                                            <img width="90%" src="https://i.imgur.com/NXom2um.png" alt="TwitchTV" />
+                                                            </a>
+                                                    </td>
+                                                    <td width="20%">
+                                                        <a class="SocialMediaLinks" href="{{youtubeUrl}}">
+                                                            <img width="90%" src="https://i.imgur.com/Ri73JhH.png" alt="Youtube" />
+                                                        </a>
+                                                    </td>
+                                                    <td width="20%">
+                                                        <a class="SocialMediaLinks" href="{{instagramUrl}}">
+                                                            <img width="90%" src="https://i.imgur.com/9PHyms0.png" alt="Instagram" />
+                                                        </a>
+                                                    </td>
+                                                    <td width="20%">
+                                                        <a class="SocialMediaLinks" href="{{twitterUrl}}">
+                                                            <img width="90%" src="https://i.imgur.com/Amwt37w.png" alt="Twitter" />
+                                                        </a>
+                                                    </td>
+                                                    <td width="20%">
+                                                        <a class="SocialMediaLinks" href="{{facebookUrl}}">
+                                                            <img width="90%" src="https://i.imgur.com/ZvtUG96.png" alt="Facebook" />
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
         </div>
     {{/each}}
 </div>
+<br>

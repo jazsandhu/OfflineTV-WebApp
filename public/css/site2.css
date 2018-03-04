@@ -16,7 +16,7 @@ hr {
 
 .SocialMediaLinks img:hover {
     border-radius: 100%;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 @keyframes example {
@@ -46,6 +46,10 @@ header {
     background-color: rgb(192, 192, 192);
     padding: 5px;
     border: 1px solid white;
+}
+
+.gray {
+    border:1px solid gray;
 }
 
 .red {
