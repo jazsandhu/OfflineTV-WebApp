@@ -1,4 +1,7 @@
-header, nav, div, .container, .row, hr{
+body {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
 }
@@ -14,4 +17,28 @@ hr {
 .SocialMediaLinks img:hover {
     border-radius: 100%;
     opacity: 0.8;
+}
+
+@keyframes example {
+    0% {background-color: rgb(119, 243, 237);}
+    50% {background-color: rgb(252, 141, 159);}
+    100% {background-color: rgb(119, 243, 237);}
+}
+header {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(119, 243, 237);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topPadding {
+    padding-top: 1em;
+}
+
+.red {
+    border:1px solid red;
 }
