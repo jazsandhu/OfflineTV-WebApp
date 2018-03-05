@@ -77,3 +77,19 @@ footer a:link, footer a:active, footer a:visited {
 footer a:hover {
     color: rgb(202, 202, 202);
 }
+
+@keyframes plug {
+    0% {color: rgb(255, 0, 0);}
+    20% {color: rgb(168, 151, 0);}
+    40% {color: rgb(33, 167, 0);}
+    60% {color: rgb(0, 141, 160);}
+    80% {color: rgb(195, 0, 255);}
+    100% {color: rgb(255, 0, 0);}
+}
+.plug:link, .plug:active, .plug:visited, .plug:hover {
+    animation-name: plug;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
