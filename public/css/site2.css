@@ -109,12 +109,12 @@ footer a:hover {
 }
 @media screen and (min-width : 768px) and (max-width : 991px) {
     .mobile-text-center {
-        font-size:20px;
+        font-size:10px;
     }
 }
 @media screen and (max-width : 480px) {
     .mobile-text-center {
-        font-size:10px;
+        font-size:20px;
         text-align: center;
     }
 }
