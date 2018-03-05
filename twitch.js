@@ -1,4 +1,4 @@
-
+//fix this shit
 var $ = require("http://code.jquery.com/jquery-latest.min.js");
 
 var members = ["Scarra","pokimane","lilypichu","fedmyster","disguisedtoasths","xell_stream","theemarkz","based_yoona","chrischantor","peccapecca","sleightlymusical"];

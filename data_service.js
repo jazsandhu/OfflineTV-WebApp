@@ -1,8 +1,11 @@
+// modules
+const fs = require('fs'); // file system
+const rp = require('request-promise');
+const cheerio = require('cheerio');
+
 //JSON to string
 var members = [];
-
-// file system
-const fs = require('fs');
+var products = [];
 
 //functions
 module.exports = {
@@ -28,6 +31,22 @@ module.exports = {
             } else {
                 reject("No member results returned");
             }
+        });
+    },
+
+    getAllProducts: () => {
+        return new Promise((resolve, reject) => {
+            const getProducts = {
+                url: 'https://teespring.com/api/stores/offline-tv-official-merch/store_products?page=1',
+                json: true
+            }
+            rp(getProducts)
+            .then((data) => {
+                resolve(data.products);
+            })
+            .catch(() => {
+                reject("No product results returned");
+            });
         });
     }
 }

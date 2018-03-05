@@ -60,7 +60,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
     });
     // store
     app.get("/store", (req, res) => {
-        res.render("store");
+        data_service.getAllProducts()
+        .then((data) => {
+            res.render("store", { data: data });
+        })
+        .catch((reason) => {
+            res.render("store");
+        });
     });
     // unidentified route
     app.use((req, res) => {
