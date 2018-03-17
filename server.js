@@ -1,5 +1,5 @@
 // use of modules
-    const express = require ('express');
+    const express = require('express');
     const app = express();
     const exphbs = require('express-handlebars');
     const bodyParser = require('body-parser');
@@ -46,7 +46,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // routes
     // home
     app.get("/", (req, res) => {
-        res.render("home");
+        data_service.getAllMembers()
+        .then((data) => {
+            res.render("home", { data: data });
+        })
+        .catch((reason) => {
+            res.render("home", { data: {} });
+        });
     });
     //members
     app.get("/members", (req, res) => {

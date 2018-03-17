@@ -1,8 +1,8 @@
 [
     {
-        "member#": "1",
         "memberName": "Scarra",
-        "profilePicture": "/images/profile-pictures/Scarra.gif",
+        "profilePicture": "/images/profile-pictures/scarra.jpg",
+        "twitchPicture": "/images/twitch-pictures/scarra.jpeg",
         "twitchUrl": "https://www.twitch.tv/Scarra",
         "instagramUrl": "https://www.instagram.com/scarraa/?hl=en",
         "twitterUrl": "https://twitter.com/scarra?lang=en",
@@ -11,9 +11,9 @@
     },
 
     {
-        "member#": "2",
         "memberName": "Pokimane",
         "profilePicture": "/images/profile-pictures/poki.jpg",
+        "twitchPicture": "/images/twitch-pictures/poki.png",
         "twitchUrl": "https://www.twitch.tv/pokimane",
         "instagramUrl": "https://www.instagram.com/pokimanelol/?hl=en",
         "twitterUrl": "https://twitter.com/pokimanelol",
@@ -22,9 +22,9 @@
     },
 
     {
-        "member#": "3",
         "memberName": "LilyPichu",
         "profilePicture": "/images/profile-pictures/lily.jpg",
+        "twitchPicture": "/images/twitch-pictures/lily.png",
         "twitchUrl": "https://www.twitch.tv/lilypichu",
         "instagramUrl": "https://www.instagram.com/lilypichu/?hl=en",
         "twitterUrl": "https://twitter.com/lilypichu?lang=en",
@@ -33,9 +33,9 @@
     },
 
     {
-        "member#": "5",
         "memberName": "Fedmyster",
         "profilePicture": "/images/profile-pictures/fed.jpg",
+        "twitchPicture": "/images/twitch-pictures/fed.jpeg",
         "twitchUrl": "https://www.twitch.tv/fedmyster",
         "instagramUrl": "https://www.instagram.com/fedmyster/?hl=en",
         "twitterUrl": "https://twitter.com/fedmyster?lang=en",
@@ -44,9 +44,9 @@
     },
 
     {
-        "member#": "4",
         "memberName": "Disguised Toast",
         "profilePicture": "/images/profile-pictures/toast.jpg",
+        "twitchPicture": "/images/twitch-pictures/toast.jpeg",
         "twitchUrl": "https://twitch.tv/disguisedtoasths",
         "instagramUrl": "https://www.instagram.com/thedisguisedtoast/",
         "twitterUrl": "https://twitter.com/disguisedtoast",
@@ -55,9 +55,9 @@
     },
     
     {
-        "member#": "6",
         "memberName": "Xell",
         "profilePicture": "/images/profile-pictures/xell.jpg",
+        "twitchPicture": "/images/twitch-pictures/xell.jpeg",
         "twitchUrl": "https://twitch.tv/xell_stream",
         "instagramUrl": "https://www.instagram.com/xellgrams/",
         "twitterUrl": "https://twitter.com/xelltweets",
@@ -66,9 +66,9 @@
     },
 
     {
-        "member#": "7",
         "memberName": "TheeMarkZ",
         "profilePicture": "/images/profile-pictures/mark.jpeg",
+        "twitchPicture": "/images/twitch-pictures/mark.jpeg",
         "twitchUrl": "https://twitch.tv/theemarkz",
         "instagramUrl": "https://www.instagram.com/theemarkz/",
         "twitterUrl": "https://twitter.com/theemarkz",
@@ -77,9 +77,9 @@
     },
     
     {
-        "member#": "8",
         "memberName": "Based Yoona",
         "profilePicture": "/images/profile-pictures/yoona.jpg",
+        "twitchPicture": "/images/twitch-pictures/yoona.jpg",
         "twitchUrl": "https://twitch.tv/based_yoona",
         "instagramUrl": "https://www.instagram.com/based_yoona/",
         "twitterUrl": "https://twitter.com/basedyoona",
@@ -88,9 +88,9 @@
     },
     
     {
-        "member#": "9",
         "memberName": "Chris Chan",
         "profilePicture": "/images/profile-pictures/chris.jpg",
+        "twitchPicture": "/images/twitch-pictures/chris.jpg",
         "twitchUrl": "https://twitch.tv/chrischantor",
         "instagramUrl": "https://www.instagram.com/chrischantor/",
         "twitterUrl": "https://twitter.com/chrischanto",
@@ -99,9 +99,9 @@
     },
     
     {
-        "member#": "10",
         "memberName": "Pecca",
         "profilePicture": "/images/profile-pictures/pecca.jpg",
+        "twitchPicture": "/images/twitch-pictures/pecca.jpg",
         "twitchUrl": "https://twitch.tv/peccapecca",
         "instagramUrl": "https://www.instagram.com/peccapeccapecca/",
         "twitterUrl": "https://twitter.com/peccapecca",
@@ -110,9 +110,9 @@
     },
     
     {
-        "member#": "11",
         "memberName": "Albert",
         "profilePicture": "/images/profile-pictures/albert.jpg",
+        "twitchPicture": "/images/twitch-pictures/albert.jpg",
         "twitchUrl": "https://twitch.tv/sleightlymusical",
         "instagramUrl": "https://www.instagram.com/sleightlymusical/",
         "twitterUrl": "https://twitter.com/THEalbertchang",

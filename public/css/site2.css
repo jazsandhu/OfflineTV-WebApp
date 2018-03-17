@@ -22,6 +22,29 @@ hr {
     opacity: 0.6;
 }
 
+.append div {
+    padding:5px;
+}
+
+.append a div {
+    padding:5px;
+    border:1px gray solid; 
+}
+
+.append a:link, .append a:active, .append a:visited, {
+    text-decoration: none;
+    background-color: rgb(205, 205, 205);
+    border: 1px solid rgb(80, 80, 80);
+    color: rgb(50, 50, 50);
+}
+
+.append a:hover {
+    text-decoration: none;
+    background-color: rgb(210, 210, 210);
+    border: 1px solid rgb(80, 80, 80);
+    color: rgb(50, 50, 50);
+}
+
 @keyframes example {
     0% {background-color: rgb(119, 243, 237);}
     50% {background-color: rgb(252, 141, 159);}
@@ -46,6 +69,12 @@ header {
 .content {
     background-color: rgb(225, 225, 225);
     padding: 5px;
+    border: 1px solid rgb(80, 80, 80);
+    color: rgb(50, 50, 50);
+}
+
+.contentNoPad {
+    background-color: rgb(225, 225, 225);
     border: 1px solid rgb(80, 80, 80);
     color: rgb(50, 50, 50);
 }
