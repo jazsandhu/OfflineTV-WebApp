@@ -70,12 +70,12 @@ $(document).ready(() => {
                         num_offline++;
                         if(num_offline == members.length) {
                             $('#after')
-                            .after('<div"><p>Offline TV is AFK ResidentSleeper<p></div>');
+                            .after('<div><p>Offline TV is AFK ResidentSleeper<p></div>');
                             $('#twitchBar').addClass('twitchBar div');
                         }
                     } else {
                         $('#after')
-                        .after('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div class="twitchBarYES">' + value.memberName + '</div></a>');
+                        .after('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div class="twitchLink"><div style="margin:0;"><img style="height:2.1em;" src="' + value.twitchPicture + '" alt="'+ value.memberName + '"></div><div class="twitchPadding">' + value.memberName + '</div></div></a>');
                         $('#twitchBar').addClass('twitchBar a, twitchBar a div, twitchBar a div:hover');
                     }
                 }

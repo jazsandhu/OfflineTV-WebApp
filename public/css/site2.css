@@ -22,10 +22,21 @@ hr {
     opacity: 0.6;
 }
 
-.twitchBar div {
+twitchPadding {    
+    padding: 0px;
+    margin: 0px;
+}
+
+#after {
     border: 1px solid rgb(225, 225, 225);
     float:left;
     padding:5px;
+    margin: 5px;
+}
+
+.twitchBar div {
+    float:left;
+    margin: 5px;
 }
 
 .twitchBar a {
@@ -33,12 +44,12 @@ hr {
     text-decoration: none;
 }
 
-.twitchBar a div {
+.twitchBar a div.twitchLink {
     background-color: rgb(225, 225, 225);
     border: 1px solid gray;
 }
 
-.twitchBar a div:hover {
+.twitchBar a div.twitchLink:hover {
     background-color: rgb(210, 210, 210);
     border: 1px solid gray;
 }
