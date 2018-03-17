@@ -22,27 +22,25 @@ hr {
     opacity: 0.6;
 }
 
-.append div {
+.twitchBar div {
+    border: 1px solid rgb(225, 225, 225);
+    float:left;
     padding:5px;
 }
 
-.append a div {
-    padding:5px;
-    border:1px gray solid; 
-}
-
-.append a:link, .append a:active, .append a:visited, {
-    text-decoration: none;
-    background-color: rgb(205, 205, 205);
-    border: 1px solid rgb(80, 80, 80);
+.twitchBar a {
     color: rgb(50, 50, 50);
+    text-decoration: none;
 }
 
-.append a:hover {
-    text-decoration: none;
+.twitchBar a div {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid gray;
+}
+
+.twitchBar a div:hover {
     background-color: rgb(210, 210, 210);
-    border: 1px solid rgb(80, 80, 80);
-    color: rgb(50, 50, 50);
+    border: 1px solid gray;
 }
 
 @keyframes example {

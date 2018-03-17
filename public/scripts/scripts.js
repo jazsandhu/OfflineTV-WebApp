@@ -69,14 +69,14 @@ $(document).ready(() => {
                     if (channel["stream"] == null) {
                         num_offline++;
                         if(num_offline == members.length) {
-                            $('#append')
-                            .append('<div>Offline TV is AFK ResidentSleeper</div>');
-                            $('#append').addClass('append div');
+                            $('#after')
+                            .after('<div"><p>Offline TV is AFK ResidentSleeper<p></div>');
+                            $('#twitchBar').addClass('twitchBar div');
                         }
                     } else {
-                        $('#append')
-                        .append('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div>' + value.memberName + '</div></a>');
-                        $('#append').addClass('append a div, append a:link, append a:active, append a:visited, append a:hover');
+                        $('#after')
+                        .after('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div class="twitchBarYES">' + value.memberName + '</div></a>');
+                        $('#twitchBar').addClass('twitchBar a, twitchBar a div, twitchBar a div:hover');
                     }
                 }
             });
