@@ -70,7 +70,7 @@ $(document).ready(() => {
                         num_offline++;
                         if(num_offline == members.length) {
                             $('#after')
-                            .after('<div><p>Offline TV is AFK ResidentSleeper<p></div>');
+                            .after('<div>Offline TV is AFK ResidentSleeper</div>');
                             $('#twitchBar').addClass('twitchBar div');
                         }
                     } else {

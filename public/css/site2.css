@@ -35,8 +35,10 @@ twitchPadding {
 }
 
 .twitchBar div {
+    border: 1px solid rgb(225, 225, 225);
     float:left;
-    margin: 5px;
+    padding:5px;
+    margin:5px;
 }
 
 .twitchBar a {
