@@ -22,11 +22,6 @@ hr {
     opacity: 0.6;
 }
 
-twitchPadding {    
-    padding: 0px;
-    margin: 0px;
-}
-
 #after {
     border: 1px solid rgb(225, 225, 225);
     float:left;
@@ -39,6 +34,12 @@ twitchPadding {
     float:left;
     padding:5px;
     margin:5px;
+}
+.twitchBar div.none {
+    border: none;
+    float:left;
+    padding:0;
+    margin:0;
 }
 
 .twitchBar a {

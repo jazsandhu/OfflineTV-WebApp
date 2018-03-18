@@ -75,8 +75,8 @@ $(document).ready(() => {
                         }
                     } else {
                         $('#after')
-                        .after('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div class="twitchLink"><div style="margin:0;"><img style="height:2.1em;" src="' + value.twitchPicture + '" alt="'+ value.memberName + '"></div><div class="twitchPadding">' + value.memberName + '</div></div></a>');
-                        $('#twitchBar').addClass('twitchBar a, twitchBar a div, twitchBar a div:hover');
+                        .after('<a target="_blank" href="https://twitch.tv/' + value.twitchName + '"><div class="twitchLink" style="padding:0;"><div class="none"><img style="height:2.1em;margin:0;padding:0;" src="' + value.twitchPicture + '" alt="'+ value.memberName + '"></div><div class="none" style="margin:5px;">' + value.memberName + '</div></div></a>');
+                        $('#twitchBar').addClass('twitchBar div.none, twitchBar a, twitchBar a div, twitchBar a div:hover');
                     }
                 }
             });
