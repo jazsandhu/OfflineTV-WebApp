@@ -37,7 +37,7 @@ const members = [
                     {
                         memberName: "Based Yoona",
                         twitchName: "based_yoona",
-                        twitchPicture: "/images/twitch-pictures/yoona.jpg",
+                        twitchPicture: "/images/twitch-pictures/yoona.png",
                     },
                     {
                         memberName: "Chris Chan",
