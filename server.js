@@ -5,6 +5,7 @@
     const bodyParser = require('body-parser');
     const path = require('path');
     const data_service = require('./data_service.js');
+    const React = require('react');
 //
 
 // allow use of local files

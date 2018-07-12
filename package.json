@@ -4,11 +4,14 @@
   "description": "Offline TV Sample Website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Jasdeep Sandhu",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "cheerio": "^1.0.0-rc.2",
@@ -17,7 +20,10 @@
     "jquery": "^3.3.1",
     "jsdom": "^11.6.2",
     "path": "^0.12.7",
+    "react": "^16.4.1",
     "request-promise": "^4.2.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
