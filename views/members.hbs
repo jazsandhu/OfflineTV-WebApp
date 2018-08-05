@@ -1,55 +1,33 @@
-<br>
-<div class="row">
-    {{#each data}}
-        <div class="col-sm-6 col-md-6 col-lg-6" style="margin-bottom:0px;padding:0;">
-            <div class="row content" style="margin:2px;padding:2px;">
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <img class="profilePicture" style="border-radius:100%;margin:0;padding:0;" width="100%" height="100%" src="{{profilePicture}}" alt="profilePicture" />
-                </div>
-                <div class="col-sm-8 col-md-8 col-lg-8 align-self-center">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-12 mobile-text-center" style="padding-left:0;padding-right:0;">
-                            <p style="margin-bottom:0;">&nbsp;{{memberName}}</p><hr style="margin-top:0;padding-top:0;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <div class="row">
-                                <table width="100%">
-                                    <tr>
-                                        <td width="20%" > 
-                                            <a class="SocialMediaLinks" href="{{twitchUrl}}" target="_blank">
-                                                <img width="90%" src="/images/social-media/twitchLogo.png" alt="TwitchTV" />
-                                            </a>
-                                        </td>
-                                        <td width="20%">
-                                            <a class="SocialMediaLinks" href="{{youtubeUrl}}" target="_blank">
-                                                <img width="90%" src="/images/social-media/youtubeLogo.png" alt="Youtube" />
-                                            </a>
-                                        </td>
-                                        <td width="20%">
-                                            <a class="SocialMediaLinks" href="{{instagramUrl}}" target="_blank">
-                                                <img width="90%" src="/images/social-media/instagramLogo.png" alt="Instagram" />
-                                            </a>
-                                        </td>
-                                        <td width="20%">
-                                            <a class="SocialMediaLinks" href="{{twitterUrl}}" target="_blank">
-                                                <img width="90%" src="/images/social-media/twitterLogo.png" alt="Twitter" />
-                                            </a>
-                                        </td>
-                                        <td width="20%">
-                                            <a class="SocialMediaLinks" href="{{facebookUrl}}" target="_blank">
-                                                <img width="90%" src="/images/social-media/facebookLogo.png" alt="Facebook" />
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {{/each}}
+<div class="container">
+	<div class="row my-1">
+		{{#each data}}
+		<div class="col-xs-1 col-sm-4 col-md-4 col-lg-3 my-1 mx-0">
+			<div class="card">
+				<img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="{{profilePicture}}" alt="{{Name}}">
+				<div class="card-body">
+					<h5 class="card-title">{{Name}}</h5>
+					<p class="card-text">{{Description}}</p>
+					<a class="SocialMediaLinks" href="{{twitchUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/twitchLogo.png" alt="TwitchTV" />
+					</a>
+					<a class="SocialMediaLinks" href="{{twitchUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/discordLogo.png" alt="Discord" />
+					</a>
+					<a class="SocialMediaLinks" href="{{youtubeUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/youtubeLogo.png" alt="Youtube" />
+					</a>
+					<a class="SocialMediaLinks" href="{{instagramUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/instagramLogo.png" alt="Instagram" />
+					</a>
+					<a class="SocialMediaLinks" href="{{twitterUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/twitterLogo.png" alt="Twitter" />
+					</a>
+					<a class="SocialMediaLinks" href="{{facebookUrl}}">
+						<img style="max-width: 30px; height: auto;" src="/images/social-media/facebookLogo.png" alt="Facebook" />
+					</a>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
 </div>
-<br>

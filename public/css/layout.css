@@ -162,3 +162,9 @@ footer a:hover {
         text-align: center;
     }
 }
+
+.YoutubeImageCenter img {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}

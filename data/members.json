@@ -1,122 +1,102 @@
 [
-    {
-        "memberName": "Scarra",
-        "profilePicture": "/images/profile-pictures/scarra.jpg",
-        "twitchPicture": "/images/twitch-pictures/scarra.jpeg",
-        "twitchUrl": "https://www.twitch.tv/Scarra",
-        "instagramUrl": "https://www.instagram.com/scarraa/?hl=en",
-        "twitterUrl": "https://twitter.com/scarra?lang=en",
-        "facebookUrl": "https://www.facebook.com/scarraofficial/",
-        "youtubeUrl": "https://www.youtube.com/user/scarraofficial"
-    },
-
-    {
-        "memberName": "Pokimane",
-        "profilePicture": "/images/profile-pictures/poki.jpg",
-        "twitchPicture": "/images/twitch-pictures/poki.png",
-        "twitchUrl": "https://www.twitch.tv/pokimane",
-        "instagramUrl": "https://www.instagram.com/pokimanelol/?hl=en",
-        "twitterUrl": "https://twitter.com/pokimanelol",
-        "facebookUrl": "https://www.facebook.com/pokimane/",
-        "youtubeUrl": "https://www.youtube.com/user/pokimane"
-    },
-
-    {
-        "memberName": "LilyPichu",
-        "profilePicture": "/images/profile-pictures/lily.jpg",
-        "twitchPicture": "/images/twitch-pictures/lily.png",
-        "twitchUrl": "https://www.twitch.tv/lilypichu",
-        "instagramUrl": "https://www.instagram.com/lilypichu/?hl=en",
-        "twitterUrl": "https://twitter.com/lilypichu?lang=en",
-        "facebookUrl": "https://www.facebook.com/lilypichu/",
-        "youtubeUrl": "https://www.youtube.com/user/lilypichu"
-    },
-
-    {
-        "memberName": "Fedmyster",
-        "profilePicture": "/images/profile-pictures/fed.jpg",
-        "twitchPicture": "/images/twitch-pictures/fed.jpeg",
-        "twitchUrl": "https://www.twitch.tv/fedmyster",
-        "instagramUrl": "https://www.instagram.com/fedmyster/?hl=en",
-        "twitterUrl": "https://twitter.com/fedmyster?lang=en",
-        "facebookUrl": "https://www.facebook.com/Fedmyster/",
-        "youtubeUrl": "https://www.youtube.com/channel/UCOmXyEquWIIo1uAj_2LN4UA"
-    },
-
-    {
-        "memberName": "Disguised Toast",
-        "profilePicture": "/images/profile-pictures/toast.jpg",
-        "twitchPicture": "/images/twitch-pictures/toast.jpeg",
-        "twitchUrl": "https://twitch.tv/disguisedtoasths",
-        "instagramUrl": "https://www.instagram.com/thedisguisedtoast/",
-        "twitterUrl": "https://twitter.com/disguisedtoast",
-        "facebookUrl": "https://www.facebook.com/disguisedtoast/",
-        "youtubeUrl": "https://www.youtube.com/channel/UCUT8RoNBTJvwW1iErP6-b-A"
-    },
-    
-    {
-        "memberName": "Xell",
-        "profilePicture": "/images/profile-pictures/xell.jpg",
-        "twitchPicture": "/images/twitch-pictures/xell.jpeg",
-        "twitchUrl": "https://twitch.tv/xell_stream",
-        "instagramUrl": "https://www.instagram.com/xellgrams/",
-        "twitterUrl": "https://twitter.com/xelltweets",
-        "facebookUrl": "https://www.facebook.com/LoLXell/",
-        "youtubeUrl": "https://www.youtube.com/user/OfficialXell"
-    },
-
-    {
-        "memberName": "TheeMarkZ",
-        "profilePicture": "/images/profile-pictures/mark.jpeg",
-        "twitchPicture": "/images/twitch-pictures/mark.jpeg",
-        "twitchUrl": "https://twitch.tv/theemarkz",
-        "instagramUrl": "https://www.instagram.com/theemarkz/",
-        "twitterUrl": "https://twitter.com/theemarkz",
-        "facebookUrl": "https://www.facebook.com/theemarkz/",
-        "youtubeUrl": "https://www.youtube.com/channel/UCU74OVWGSmJqR1g6y-tgUHQ"
-    },
-    
-    {
-        "memberName": "Based Yoona",
-        "profilePicture": "/images/profile-pictures/yoona.jpg",
-        "twitchPicture": "/images/twitch-pictures/yoona.jpg",
-        "twitchUrl": "https://twitch.tv/based_yoona",
-        "instagramUrl": "https://www.instagram.com/based_yoona/",
-        "twitterUrl": "https://twitter.com/basedyoona",
-        "facebookUrl": "https://www.facebook.com/BasedYoona/",
-        "youtubeUrl": "https://www.youtube.com/user/xTheLastSpartanxx"
-    },
-    
-    {
-        "memberName": "Chris Chan",
-        "profilePicture": "/images/profile-pictures/chris.jpg",
-        "twitchPicture": "/images/twitch-pictures/chris.jpg",
-        "twitchUrl": "https://twitch.tv/chrischantor",
-        "instagramUrl": "https://www.instagram.com/chrischantor/",
-        "twitterUrl": "https://twitter.com/chrischanto",
-        "facebookUrl": "https://www.facebook.com/offlinechris/",
-        "youtubeUrl": "N/A"
-    },
-    
-    {
-        "memberName": "Pecca",
-        "profilePicture": "/images/profile-pictures/pecca.jpg",
-        "twitchPicture": "/images/twitch-pictures/pecca.jpg",
-        "twitchUrl": "https://twitch.tv/peccapecca",
-        "instagramUrl": "https://www.instagram.com/peccapeccapecca/",
-        "twitterUrl": "https://twitter.com/peccapecca",
-        "facebookUrl": "N/A",
-        "youtubeUrl": "https://www.youtube.com/channel/UCHErZgBloHNYX6Uu_dsBVxg"
-    },
-    
-    {
-        "memberName": "Albert",
-        "profilePicture": "/images/profile-pictures/albert.jpg",
-        "twitchPicture": "/images/twitch-pictures/albert.jpg",
-        "twitchUrl": "https://twitch.tv/sleightlymusical",
-        "instagramUrl": "https://www.instagram.com/sleightlymusical/",
-        "twitterUrl": "https://twitter.com/THEalbertchang",
-        "facebookUrl": "https://www.facebook.com/sleightlymusical/",
-        "youtubeUrl": "https://www.youtube.com/user/sleightlymusical"
-    }
+	{
+		"Name": "Albert",
+		"profilePicture": "./images/profile-pictures/albert.jpg",
+		"Description": "Production / Streamer",
+		"Discord": "https://discord.gg/2fX2C6e",
+		"twitter": "https://twitter.com/THEalbertchang",
+		"youtube": "https://www.youtube.com/user/sleightlymusical",
+		"instagram": "https://www.instagram.com/sleightlymusical/",
+		"facebook": "https://www.facebook.com/sleightlymusical/"
+	},
+	{
+		"Name": "Edison",
+		"Description": "Manager / Streamer",
+        "profilePicture": "./images/profile-pictures/edison.jpg",
+		"Discord": "",
+		"twitter": "https://twitter.com/edisonparklive",
+		"youtube": "https://www.youtube.com/c/fuslie",
+		"instagram": "https://www.instagram.com/edisonparklive/",
+		"facebook": "https://facebook.com/fuslie"
+	},
+	{
+		"Name": "Fed",
+		"Description": "Streamer",
+        "profilePicture": "./images/profile-pictures/fed.jpg",
+		"Discord": "https://discordapp.com/invite/bybJTEa",
+		"twitter": "https://twitter.com/fedmyster",
+		"youtube": "https://www.youtube.com/channel/UCOmXyEquWIIo1uAj_2LN4UA",
+		"instagram": "https://www.instagram.com/fedmyster/",
+		"facebook": "https://www.facebook.com/Fedmyster/"
+	},
+	{
+		"Name": "Lily",
+		"Description": "Streamer",
+        "profilePicture": "./images/profile-pictures/lily.jpg",
+		"Discord": "https://discordapp.com/invite/lilypichu",
+		"twitter": "https://twitter.com/lilypichu",
+		"youtube": "https://www.youtube.com/user/LilyPichu",
+		"instagram": "https://www.instagram.com/lilypichu/",
+		"facebook": "https://www.facebook.com/lilypichu/"
+	},
+	{
+		"Name": "Mark",
+		"Description": "Production / Streamer",
+        "profilePicture": "./images/profile-pictures/mark.jpg",
+		"Discord": "",
+		"twitter": "https://twitter.com/theemarkz",
+		"youtube": "https://www.youtube.com/channel/UCU74OVWGSmJqR1g6y-tgUHQ",
+		"instagram": "https://www.instagram.com/theemarkz",
+		"facebook": "https://www.facebook.com/theemarkz"
+	},
+	{
+		"Name": "Pokimane",
+		"Description": "Streamer",
+        "profilePicture": "./images/profile-pictures/poki.jpg",
+		"Discord": "https://discordapp.com/invite/poki",
+		"twitter": "https://twitter.com/pokimanelol",
+		"youtube": "https://www.youtube.com/user/pokimane",
+		"instagram": "https://www.instagram.com/pokimanelol/",
+		"facebook": "https://www.facebook.com/pokimane/"
+	},
+	{
+		"Name": "Scarra",
+		"Description": "CEO / Streamer",
+        "profilePicture": "./images/profile-pictures/scarra.jpg",
+		"Discord": "https://discordapp.com/invite/scarra",
+		"twitter": "https://twitter.com/scarra",
+		"youtube": "https://www.youtube.com/user/scarraofficial",
+		"instagram": "https://www.instagram.com/scarraa/",
+		"facebook": "https://www.facebook.com/scarraofficial/"
+	},
+	{
+		"Name": "Toast",
+		"Description": "Streamer",
+        "profilePicture": "./images/profile-pictures/toast.jpg",
+		"Discord": "https://discordapp.com/invite/0hQsjoIwwfQfRNQr",
+		"twitter": "https://twitter.com/disguisedtoast",
+		"youtube": "https://www.youtube.com/channel/UCUT8RoNBTJvwW1iErP6-b-A",
+		"instagram": "https://www.instagram.com/thedisguisedtoast/",
+		"facebook": "https://www.facebook.com/disguisedtoast/"
+	},
+	{
+		"Name": "Xell",
+		"Description": "Production / Streamer",
+        "profilePicture": "./images/profile-pictures/xell.jpg",
+		"Discord": "https://discordapp.com/invite/5HSaHjd",
+		"twitter": "https://twitter.com/xelltweets",
+		"youtube": "https://www.youtube.com/user/OfficialXell",
+		"instagram": "https://www.instagram.com/xellgrams",
+		"facebook": "https://www.facebook.com/LoLXell"
+	},
+	{
+		"Name": "Yvonne",
+		"Description": "House Mom / Streamer",
+        "profilePicture": "./images/profile-pictures/yvonne.jpg",
+		"Discord": "https://discord.gg/98t3sjt",
+		"twitter": "https://twitter.com/yvonnieng",
+		"youtube": "",
+		"instagram": "https://www.instagram.com/yvonnieng/",
+		"facebook": "https://www.facebook.com/yvonnietv"
+	}
 ]

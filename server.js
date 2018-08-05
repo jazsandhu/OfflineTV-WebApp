@@ -75,10 +75,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
             res.render("store");
         });
     });
-    // about me
-    app.get("/about_me", (req, res) => {
-        res.render("about_me");
-    });
     // unidentified route
     app.use((req, res) => {
         res.status(404).send("Page Not Found!");

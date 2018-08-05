@@ -1,29 +1,30 @@
-<br>
-<div class="row" style="padding-bottom:15px;">
-    <div class="col-md-12 text-center"> 
-        <button type="button" class="btn btn-primary pointer" onclick="location.href='https://teespring.com/stores/offline-tv-official-merch?page=1';">See More</button> 
-        <br>
-        <p>Promo Code: HOECAGE</p>
+<div class="container">
+    <div class="row" style="padding-bottom:15px;">
+        <div class="col-md-12 text-center mt-4">
+            <button type="button" class="btn btn-primary pointer" onclick="location.href='https://teespring.com/stores/offline-tv-official-merch?page=1';">See More</button>
+            <br>
+            <p>Promo Code: HOECAGE</p>
+        </div>
     </div>
-</div>
-<div class="row">
-    {{#each data}}
-        <div class="col-sm-3 col-md-3 col-lg-3" style="padding-bottom:5px;">
+    <div class="row">
+        {{#each data}}
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="padding-bottom:5px;">
             <div class="product">
-                <a href="https://teespring.com{{url}}" target="_blank">
+                <a href="https://teespring.com{{url}}">
                     <div class="content" style="text-align:center;margin:1px;">
-                        <div width="100%" >
-                            <img width="100%" style="border:1px solid rgb(80, 80, 80);" src="{{image_url}}" alt="{{name}}" />
-                        </div><hr style="margin:0;padding:0;margin-top:2px;">
                         <div width="100%">
-                            <p style="font-size:16px;margin:0;" >{{price}}</p>
-                            <p style="font-size:14px;margin:0;" >{{name}}</p>
-                            <p style="font-size:10px;margin:0;font-style:italic;" >{{product_name}}</p>
+                            <img width="100%" style="border:1px solid rgb(80, 80, 80);" src="{{image_url}}" alt="{{name}}" />
                         </div>
-                    </div>      
+                        <hr style="margin:0;padding:0;margin-top:2px;">
+                        <div width="100%">
+                            <p style="font-size:16px;margin:0;">{{price}}</p>
+                            <p style="font-size:14px;margin:0;">{{name}}</p>
+                            <p style="font-size:10px;margin:0;font-style:italic;">{{product_name}}</p>
+                        </div>
+                    </div>
                 </a>
             </div>
         </div>
-    {{/each}}
+        {{/each}}
+    </div>
 </div>
-<br>
