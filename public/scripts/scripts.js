@@ -1,59 +1,48 @@
 // live
 const members = [
 	{
-		memberName: "Scarra",
-		twitchName: "Scarra",
-		twitchPicture: "/images/twitch-pictures/scarra.jpeg",
+		memberName: "Albert",
+		twitchName: "sleightlymusical"
 	},
 	{
-		memberName: "Pokimane",
-		twitchName: "pokimane",
-		twitchPicture: "/images/twitch-pictures/poki.png",
+		memberName: "Edison",
+		twitchName: "edisonparklive"
 	},
 	{
 		memberName: "LilyPichu",
-		twitchName: "lilypichu",
-		twitchPicture: "/images/twitch-pictures/lily.png",
+		twitchName: "lilypichu"
 	},
 	{
 		memberName: "Fedmyster",
-		twitchName: "fedmyster",
-		twitchPicture: "/images/twitch-pictures/fed.jpeg",
+		twitchName: "fedmyster"
+	},
+	{
+		memberName: "Lily",
+		twitchName: "lilypichu"
+	},
+	{
+		memberName: "Mark",
+		twitchName: "theemarkz"
+	},
+	{
+		memberName: "Pokimane",
+		twitchName: "pokimane"
+	},
+	{
+		memberName: "Scarra Yoona",
+		twitchName: "scarra"
 	},
 	{
 		memberName: "Disguised Toast",
-		twitchName: "disguisedtoasths",
-		twitchPicture: "/images/twitch-pictures/toast.jpeg",
+		twitchName: "chrischantor"
 	},
 	{
 		memberName: "Xell",
-		twitchName: "xell_stream",
-		twitchPicture: "/images/twitch-pictures/xell.jpeg",
+		twitchName: "xell"
 	},
 	{
-		memberName: "TheeMarkZ",
-		twitchName: "theemarkz",
-		twitchPicture: "/images/twitch-pictures/mark.jpeg",
-	},
-	{
-		memberName: "Based Yoona",
-		twitchName: "based_yoona",
-		twitchPicture: "/images/twitch-pictures/yoona.png",
-	},
-	{
-		memberName: "Chris Chan",
-		twitchName: "chrischantor",
-		twitchPicture: "/images/twitch-pictures/chris.jpg",
-	},
-	{
-		memberName: "Pecca",
-		twitchName: "peccapecca",
-		twitchPicture: "/images/twitch-pictures/pecca.jpg",
-	},
-	{
-		memberName: "Albert",
-		twitchName: "sleightlymusical",
-		twitchPicture: "/images/twitch-pictures/albert.jpg",
+		memberName: "Yvonne",
+		twitchName: "yvonnie"
 	},
 ];
 
