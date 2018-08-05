@@ -7,39 +7,49 @@
 				<div class="card-body">
 					<h5 class="card-title">{{Name}}</h5>
 					<p class="card-text">{{Description}}</p>
-				</div>
-				<div class="container">
 					<div class="row">
-						<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{twitchUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/twitchLogo.png" alt="TwitchTV" />
-							</a>
-						</div>
-						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{twitchUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/discordLogo.png" alt="Discord" />
-							</a>
-						</div>
-						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{youtubeUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/youtubeLogo.png" alt="Youtube" />
-							</a>
-						</div>
-						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{instagramUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/instagramLogo.png" alt="Instagram" />
-							</a>
-						</div>
-						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{twitterUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/twitterLogo.png" alt="Twitter" />
-							</a>
-						</div>
-						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 px-1 py-1">
-							<a class="SocialMediaLinks" href="{{facebookUrl}}">
-								<img style="max-width: 30px; height: auto;" src="/images/social-media/facebookLogo.png" alt="Facebook" />
-							</a>
-						</div>
+  						{{#if twitch}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{twitch}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/twitchLogo.png" alt="TwitchTV" />
+						</a>
+						{{else}}
+
+						{{/if}}
+  						{{#if discord}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{discord}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/discordLogo.png" alt="Discord" />
+						</a>
+						{{else}}
+
+						{{/if}}
+  						{{#if youtube}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{youtube}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/youtubeLogo.png" alt="Youtube" />
+						</a>
+						{{else}}
+
+						{{/if}}
+  						{{#if instagram}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{instagram}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/instagramLogo.png" alt="Instagram" />
+						</a>
+						{{else}}
+
+						{{/if}}
+  						{{#if twitter}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{twitter}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/twitterLogo.png" alt="Twitter" />
+						</a>
+						{{else}}
+
+						{{/if}}
+  						{{#if facebook}}
+						<a class="SocialMediaLinks px-1 py-1" href="{{facebook}}">
+							<img style="max-width: 30px; height: auto;" src="/images/social-media/facebookLogo.png" alt="Facebook" />
+						</a>
+						{{else}}
+
+						{{/if}}
 					</div>
 				</div>
 			</div>
