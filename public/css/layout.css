@@ -78,13 +78,6 @@ header {
     margin-left: 0;
 } 
 
-.content {
-    background-color: rgb(225, 225, 225);
-    padding: 5px;
-    border: 1px solid rgb(80, 80, 80);
-    color: rgb(50, 50, 50);
-}
-
 .contentNoPad {
     background-color: rgb(225, 225, 225);
     border: 1px solid rgb(80, 80, 80);
@@ -167,4 +160,8 @@ footer a:hover {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

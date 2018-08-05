@@ -1,0 +1,206 @@
+{
+	"wow": [
+		{
+			"ProductName": "Fresh AF T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-e961676e_large.jpg?v=1520257200",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-t-shirt"
+		},
+		{
+			"ProductName": "Fresh AF V-Neck T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-b28996bb_large.jpg?v=1520992368",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-v-neck-t-shirt"
+		},
+		{
+			"ProductName": "Fresh AF T-Shirt (White)",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-1847a736_large.jpg?v=1520257227",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-t-shirt-white"
+		},
+		{
+			"ProductName": "Fresh AF Tag T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-bd9dd3a9_large.jpg?v=1520258413",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-tag-t-shirt-1"
+		},
+		{
+			"ProductName": "Fresh AF Tag T-Shirt (White)",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-516b4260_large.jpg?v=1520258325",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-tag-t-shirt"
+		},
+		{
+			"ProductName": "Fresh AF Women's T-Shirt (White)",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-5876d1f0_large.jpg?v=1520519140",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-womens-t-shirt-white"
+		},
+		{
+			"ProductName": "Fresh AF Women's T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-32ec150b_large.jpg?v=1520520170",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-womens-t-shirt"
+		},
+		{
+			"ProductName": "Fresh AF Tag Women's T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-d3791f8b_large.jpg?v=1520521339",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-tag-womens-t-shirt"
+		},
+		{
+			"ProductName": "Fresh AF Hoodie",
+			"Price": "$34.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-d619dccd_large.jpg?v=1520522720",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-hoodie-1"
+		},
+		{
+			"ProductName": "Fresh AF Women's Tank Top",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-477fd6d2_large.jpg?v=1520522373",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-womens-tank-top"
+		},
+		{
+			"ProductName": "Fresh AF Tank Top",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-de3b5286_large.jpg?v=1520992270",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-tank-top"
+		},
+		{
+			"ProductName": "Truely Fresh AF",
+			"Price": "$20.00",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-fbdd4d16_large.jpg?v=1520257254",
+			"productURL": "https://merch.disguisedtoast.com/products/truely-fresh-af"
+		},
+		{
+			"ProductName": "Fresh AF Tag Tank Top",
+			"Price": "$24.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-3688d404_large.jpg?v=1520702268",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-classic-tank-top"
+		},
+		{
+			"ProductName": "Fresh AF Hoodie (White/Grey)",
+			"Price": "$34.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-e5f40654_large.jpg?v=1523455869",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-hoodie-white-grey"
+		},
+		{
+			"ProductName": "Fresh AF Tag Hoodie",
+			"Price": "$34.99",
+			"imageURL": "//cdn.shopify.com/s/files/1/1569/5287/products/mockup-15acff31_large.jpg?v=1520522865",
+			"productURL": "https://merch.disguisedtoast.com/products/fresh-af-tag-hoodie-1"
+		}
+	],
+	"ht": [
+		{
+			"ProductName": "Cube Warlock T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-6493644b_large.jpg?v=1522775353",
+			"productURL": "https://merch.disguisedtoast.com/products/cube-warlock-t-shirt"
+		},
+		{
+			"ProductName": "Cube Warlock (Sticker Style) T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-acde8dee_large.jpg?v=1522775314",
+			"productURL": "https://merch.disguisedtoast.com/products/cube-warlock-sticker-style-t-shirt"
+		},
+		{
+			"ProductName": "Spiteful Priest T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-14e77a24_large.jpg?v=1522775253",
+			"productURL": "https://merch.disguisedtoast.com/products/spiteful-priest-t-shirt"
+		},
+		{
+			"ProductName": "Spiteful Priest (Sticker Style) T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-ec27a9ca_large.jpg?v=1522775407",
+			"productURL": "https://merch.disguisedtoast.com/products/spiteful-priest-sticker-style-t-shirt"
+		},
+		{
+			"ProductName": "Secret Hunter T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-eb907c72_large.jpg?v=1522775650",
+			"productURL": "https://merch.disguisedtoast.com/products/secret-hunter-t-shirt"
+		},
+		{
+			"ProductName": "Secret Hunter (Sticker Style) T-Shirt",
+			"Price": "$24.95",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-603d789c_large.jpg?v=1522775640",
+			"productURL": "https://merch.disguisedtoast.com/products/secret-hunter-sticker-style-t-shirt"
+		},
+		{
+			"ProductName": "Secret Hunter Hoodie",
+			"Price": "$34.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-17c8167a_large.jpg?v=1522775647",
+			"productURL": "https://merch.disguisedtoast.com/products/secret-hunter-hoodie"
+		},
+		{
+			"ProductName": "Secret Hunter (Sticker Style) Hoodie",
+			"Price": "$34.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-59caab3d_large.jpg?v=1522775637",
+			"productURL": "https://merch.disguisedtoast.com/products/secret-hunter-sticker-style-hoodie"
+		},
+		{
+			"ProductName": "Secret Hunter (Sticker Style) Women's T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-eca020fd_large.jpg?v=1522775644",
+			"productURL": "https://merch.disguisedtoast.com/products/secret-hunter-sticker-style-womens-t-shirt"
+		}
+	],
+	"toast": [
+		{
+			"ProductName": "Classic Toast T Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-89a80865_large.jpg?v=1520052406",
+			"productURL": "https://merch.disguisedtoast.com/products/the-classic-toast"
+		},
+		{
+			"ProductName": "Classic Toast (Sticker Style) T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-49ee4ba4_large.jpg?v=1520053202",
+			"productURL": "https://merch.disguisedtoast.com/products/classic-toast-sticker-style-t-shirt"
+		},
+		{
+			"ProductName": "Incognito Toast T-Shirt (White)",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-231bdcb4_large.jpg?v=1520321965",
+			"productURL": "https://merch.disguisedtoast.com/products/incognito-toast-t-shirt-white"
+		},
+		{
+			"ProductName": "Incognito Toast T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-259d8083_large.jpg?v=1520321903",
+			"productURL": "https://merch.disguisedtoast.com/products/incognito-toast-t-shirt"
+		},
+		{
+			"ProductName": "Refined Toast T Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-83a702d5_large.jpg?v=1520053246",
+			"productURL": "https://merch.disguisedtoast.com/products/the-refined-toast-t-shirt"
+		},
+		{
+			"ProductName": "Refined Toast (Sticker Style) T Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-dbdd7249_large.jpg?v=1520053256",
+			"productURL": "https://merch.disguisedtoast.com/products/refined-toast-sticker-style-t-shirt"
+		},
+		{
+			"ProductName": "Classic Toast (Sticker Style) Hoodie",
+			"Price": "$34.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-f793c313_large.jpg?v=1520439296",
+			"productURL": "https://merch.disguisedtoast.com/products/classic-toast-sticker-style-hoodie"
+		},
+		{
+			"ProductName": "Classic Toast (Sticker Style) Women's T-Shirt",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-15a10314_large.jpg?v=1520521108",
+			"productURL": "https://merch.disguisedtoast.com/products/classic-toast-sticker-style-womens-t-shirt"
+		},
+		{
+			"ProductName": "Classic Toast Women's (Sticker Style) Tank Top",
+			"Price": "$24.99",
+			"imageURL": "https://cdn.shopify.com/s/files/1/1569/5287/products/mockup-c3c65d34_large.jpg?v=1520521908",
+			"productURL": "https://merch.disguisedtoast.com/products/classic-toast-womens-tank-top"
+		}
+	]
+}

@@ -1,11 +1,9 @@
 // modules
 const fs = require('fs'); // file system
 const rp = require('request-promise');
-const cheerio = require('cheerio');
 
 //JSON to string
 var members = [];
-var products = [];
 
 //functions
 module.exports = {
@@ -15,29 +13,34 @@ module.exports = {
 				fs.readFile('./data/members.json', (err, data) => {
 					members = JSON.parse(data);
 				});
+				fs.readFile('./data/toast_store.json', (err, data) => {
+					toastProducts = JSON.parse(data);
+				});
+				fs.readFile('./data/poki_store.json', (err, data) => {
+					pokimaneProducts = JSON.parse(data);
+				});
 			} catch (ex) {
-				reject("Unable to read 'members.json' file");
+				reject("Unable to read data/.json files");
 			}
 			if (members) {
 				resolve("'members.json' file parsed successfully");
+			}
+			if (toastProducts) {
+				resolve("'toastProducts.json' file parsed successfully");
 			}
 		});
 	},
 
 	getAllMembers: () => {
 		return new Promise((resolve, reject) => {
-			if (!members.length == 0) {
-				resolve(members);
-			} else {
-				reject("No member results returned");
-			}
+			resolve(members);
 		});
 	},
 
-	getAllProducts: () => {
+	offlineTvProducts: () => {
 		return new Promise((resolve, reject) => {
 			const getProducts = {
-				url: 'https://teespring.com/api/stores/offline-tv-official-merch/store_products?page=1',
+				url: 'https://teespring.com/api/stores/offline-tv-official-merch/store_products',
 				json: true
 			}
 			rp(getProducts)
@@ -47,6 +50,18 @@ module.exports = {
 				.catch(() => {
 					reject("No product results returned");
 				});
+		});
+	},
+
+	toastProducts: () => {
+		return new Promise((resolve, reject) => {
+			resolve(toastProducts);
+		});
+	},
+
+	pokimaneProducts: () => {
+		return new Promise((resolve, reject) => {
+			resolve(pokimaneProducts);
 		});
 	}
 }

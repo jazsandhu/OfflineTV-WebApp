@@ -65,14 +65,34 @@ app.use(bodyParser.urlencoded({ extended: true }));
             res.render("members", { data: {} });
         });
     });
-    // store
-    app.get("/store", (req, res) => {
-        data_service.getAllProducts()
+    // Store - Offline TV
+    app.get("/store/offlinetv", (req, res) => {
+        data_service.offlineTvProducts()
         .then((data) => {
-            res.render("store", { data: data });
+            res.render("store/offlinetv", { data: data });
         })
         .catch((reason) => {
-            res.render("store");
+            res.render("store/offlinetv");
+        });
+    });
+    // Store - Disguised Toast
+    app.get("/store/disguised-toast", (req, res) => {
+        data_service.toastProducts()
+        .then((data) => {
+            res.render("./store/disguised-toast", { wow: data.wow, ht: data.ht, toast: data.toast });
+        })
+        .catch((reason) => {
+            res.render("./store/disguised-toast");
+        });
+    });
+    // Store - Pokimane
+    app.get("/store/pokimane", (req, res) => {
+        data_service.pokimaneProducts()
+        .then((data) => {
+            res.render("./store/pokimane", { data: data });
+        })
+        .catch((reason) => {
+            res.render("./store/pokimane");
         });
     });
     // unidentified route

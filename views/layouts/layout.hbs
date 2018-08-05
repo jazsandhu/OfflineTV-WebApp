@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Offline TV</title>
-    <link rel="icon" href="./images/OfflineTVLogo.png">
+    <link rel="icon" href="/images/OfflineTVLogo.png">
 
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="./images/OfflineTVLogo.png" alt="OfflineTV" width="30" height="30">
+            <img src="/images/OfflineTVLogo.png" alt="OfflineTV" width="30" height="30">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,19 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/store">Store
-                        <span class="sr-only">(current)</span>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Store
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/store/offlinetv">Offline TV</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/store/disguised-toast">Disguised Toast</a>
+                        <a class="dropdown-item disabled" href="#" style="cursor: wait;">Fedmyster</a>
+                        <a class="dropdown-item disabled" href="#" style="cursor: wait;">Lilypichu</a>
+                        <a class="dropdown-item" href="/store/pokimane">Pokimane</a>
+                    </div>
                 </li>
             </ul>
             <a class="navbar-brand my-2 my-sm-0 SocialMediaLinks" href="https://www.reddit.com/r/offlineTV/">
