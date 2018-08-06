@@ -145,26 +145,20 @@ $(window).resize(function (x) {
 
 // videos
 $('#Youtube_1').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_1 iframe').attr("src", $("#Youtube_1 iframe").attr("src"));
+	$('#Youtube_1 iframe').attr("src", $("#Youtube_1 iframe").attr("src"));
 });
 $('#Youtube_2').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_2 iframe').attr("src", $("#Youtube_2 iframe").attr("src"));
+	$('#Youtube_2 iframe').attr("src", $("#Youtube_2 iframe").attr("src"));
 });
 $('#Youtube_3').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_3 iframe').attr("src", $("#Youtube_3 iframe").attr("src"));
+	$('#Youtube_3 iframe').attr("src", $("#Youtube_3 iframe").attr("src"));
 });
 $('#Youtube_4').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_4 iframe').attr("src", $("#Youtube_4 iframe").attr("src"));
+	$('#Youtube_4 iframe').attr("src", $("#Youtube_4 iframe").attr("src"));
 });
 $('#Youtube_5').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_5 iframe').attr("src", $("#Youtube_5 iframe").attr("src"));
+	$('#Youtube_5 iframe').attr("src", $("#Youtube_5 iframe").attr("src"));
 });
 $('#Youtube_6').on('hidden.bs.modal', function (e) {
-  // do something...
-  $('#Youtube_6 iframe').attr("src", $("#Youtube_6 iframe").attr("src"));
+	$('#Youtube_6 iframe').attr("src", $("#Youtube_6 iframe").attr("src"));
 });
