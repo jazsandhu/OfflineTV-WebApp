@@ -98,6 +98,7 @@
         </button>
         <div class="collapse navbar-collapse" id="LiveContent">
             <ul class="navbar-nav mr-auto">
+                {{#if data}}
                 {{#each data}}
                 <li class="nav-item">
                     <a class="nav-link" href="{{channel.url}}">
@@ -106,6 +107,14 @@
                     </a>
                 </li>
                 {{/each}}
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Offline TV is Currently AFK
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                {{/if}}
             </ul>
         </div>
     </nav>
