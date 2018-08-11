@@ -98,16 +98,14 @@
         </button>
         <div class="collapse navbar-collapse" id="LiveContent">
             <ul class="navbar-nav mr-auto">
-                {{#if data}}
-                {{#each data}}
+                {{#if data}} {{#each data}}
                 <li class="nav-item">
                     <a class="nav-link" href="{{channel.url}}">
                         {{channel.name}}
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                {{/each}}
-                {{else}}
+                {{/each}} {{else}}
                 <li class="nav-item">
                     <a class="nav-link">
                         Offline TV is Currently AFK
@@ -135,7 +133,7 @@
                         <div class="modal-content">
                             <div class="modal-body mb-0 p-0">
                                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpR9Apzj0S8?ecver=1" allowfullscreen>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zu4qtzaAKtc?ecver=1" allowfullscreen>
                                         <p>Your browser does not support this feature.</p>
                                     </iframe>
                                 </div>
@@ -147,7 +145,7 @@
                     </div>
                 </div>
                 <a>
-                    <img class="img-fluid z-depth-1" src="http://img.youtube.com/vi/zpR9Apzj0S8/mqdefault.jpg" alt="video" data-toggle="modal"
+                    <img class="img-fluid z-depth-1" src="http://img.youtube.com/vi/Zu4qtzaAKtc/mqdefault.jpg" alt="video" data-toggle="modal"
                         data-target="#Youtube_1">
                 </a>
             </div>
@@ -244,27 +242,27 @@
                 </a>
             </div>
             <!-- 6 | Scarra -->
-        <div class="YoutubeImageCenter col-lg-4 col-md-6 col-sm-6 col-xs-12 my-1 mx-0 px-1">
-            <div class="modal fade" id="Youtube_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body mb-0 p-0">
-                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lY7aW4vw6R8?ecver=1" allowfullscreen>
-                                    <p>Your browser does not support this feature.</p>
-                                </iframe>
+            <div class="YoutubeImageCenter col-lg-4 col-md-6 col-sm-6 col-xs-12 my-1 mx-0 px-1">
+                <div class="modal fade" id="Youtube_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body mb-0 p-0">
+                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lY7aW4vw6R8?ecver=1" allowfullscreen>
+                                        <p>Your browser does not support this feature.</p>
+                                    </iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="modal-footer justify-content-center">
-                            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <a>
+                    <img class="img-fluid z-depth-1" src="http://img.youtube.com/vi/lY7aW4vw6R8/mqdefault.jpg" alt="video" data-toggle="modal"
+                        data-target="#Youtube_6">
+                </a>
             </div>
-            <a>
-                <img class="img-fluid z-depth-1" src="http://img.youtube.com/vi/lY7aW4vw6R8/mqdefault.jpg" alt="video" data-toggle="modal"
-                    data-target="#Youtube_6">
-            </a>
-        </div>
         </div>
     </div>
