@@ -11,9 +11,6 @@ $(window).resize(function (x) {
 		$("#carousel_Image_3").each(function () {
 			$(this).attr("src", "../images/carousel/toast-merch-xs.jpg");
 		});
-		$("#carousel_Image_4").each(function () {
-			$(this).attr("src", "../images/carousel/fed-send-nudes-xs.jpg");
-		});
 	} else if ($(window).width() >= 481 && $(window).width() <= 991) {
 		$("#carousel_Image_1").each(function () {
 			$(this).attr("src", "../images/carousel/poki-merch-sm.jpg");
@@ -23,9 +20,6 @@ $(window).resize(function (x) {
 		});
 		$("#carousel_Image_3").each(function () {
 			$(this).attr("src", "../images/carousel/toast-merch-sm.jpg");
-		});
-		$("#carousel_Image_4").each(function () {
-			$(this).attr("src", "../images/carousel/fed-send-nudes-sm.jpg");
 		});
 	} else if ($(window).width() >= 992 && $(window).width() <= 1199) {
 		$("#carousel_Image_1").each(function () {
@@ -37,9 +31,6 @@ $(window).resize(function (x) {
 		$("#carousel_Image_3").each(function () {
 			$(this).attr("src", "../images/carousel/toast-merch-md.jpg");
 		});
-		$("#carousel_Image_4").each(function () {
-			$(this).attr("src", "../images/carousel/fed-send-nudes-md.jpg");
-		});
 	} else if ($(window).width() >= 1200) {
 		$("#carousel_Image_1").each(function () {
 			$(this).attr("src", "../images/carousel/poki-merch-lg.jpg");
@@ -49,9 +40,6 @@ $(window).resize(function (x) {
 		});
 		$("#carousel_Image_3").each(function () {
 			$(this).attr("src", "../images/carousel/toast-merch-lg.jpg");
-		});
-		$("#carousel_Image_4").each(function () {
-			$(this).attr("src", "../images/carousel/fed-send-nudes-lg.jpg");
 		});
 	}
 });
