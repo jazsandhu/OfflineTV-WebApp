@@ -80,6 +80,20 @@ module.exports = {
 		});
 	},
 
+	youtubeVideos: () => {
+		return new Promise((resolve, reject) => {
+			let getVideos = { url:'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDCp2-BkYT62kFu-zLmdUSPAHD_XTM6pDI&channelId=UCrDQW9kAElm707c5z6d5r7Q&part=snippet,id&order=date&maxResults=20', json: true };
+			rp(getVideos)
+				.then((data) => {
+					console.log(data);
+					resolve(data);
+				})
+				.catch(() => {
+					reject("No product results returned");
+				});
+		});
+	},
+
 	toastProducts: () => {
 		return new Promise((resolve, reject) => {
 			resolve(toastProducts);

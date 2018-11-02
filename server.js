@@ -95,6 +95,16 @@ app.get("/store/pokimane", (req, res) => {
             res.render("./store/pokimane");
         });
 });
+// Videos
+app.get("/videos", (req, res) => {
+    data_service.youtubeVideos()
+        .then((data) => {
+            res.render("./videos", { data: data });
+        })
+        .catch((reason) => {
+            res.render(reason);
+        });
+});
 // unidentified route
 app.use((req, res) => {
     res.status(404).send("Page Not Found!");
